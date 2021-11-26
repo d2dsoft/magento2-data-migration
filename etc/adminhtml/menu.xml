@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="D2DSoft_DataMigration::main" title="D2dSoft" translate="title" module="D2DSoft_DataMigration" sortOrder="90" dependsOnModule="D2DSoft_DataMigration" resource="D2DSoft_DataMigration::main"/>
+        <add id="D2DSoft_DataMigration::datamigration" title="Data Migration" translate="title" module="D2DSoft_DataMigration" sortOrder="10" parent="D2DSoft_DataMigration::main" action="datamigration/migration" resource="PayMaya_Checkout::datamigration"/>
+    </menu>
+</config>

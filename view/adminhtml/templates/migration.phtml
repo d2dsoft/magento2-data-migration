@@ -1,0 +1,39 @@
+<?php /* @var $block \D2DSoft\DataMigration\Block\Adminhtml\Migration */ ?>
+<?php $jsConfig = $block->getJsConfig() ?>
+<div id="migration-page">
+
+    <div class="page-header">
+        <div class="current-title title">Migration</div>
+        <div class="redirect-icon"><a href="<?= $block->getUrl('datamigration/migration/setting') ?>" title="Setting"><span class="icon-setting"></span></a></div>
+    </div>
+
+    <?= $block->getHtmlContent() ?>
+
+</div>
+<script type="text/javascript">
+    require([
+        'jquery',
+        'D2DSoft_DataMigration/js/jquery.form.min',
+        'D2DSoft_DataMigration/js/select2.min',
+        'D2DSoft_DataMigration/js/jquery.validate.min',
+        'D2DSoft_DataMigration/js/jquery.extend',
+        'D2DSoft_DataMigration/js/jquery.migration'
+    ], function($){
+        $(document).ready(function(){
+            $.MigrationData({
+                <?php foreach($jsConfig as $key => $value) { ?>
+                    <?php echo $key ?>: '<?php echo $value ?>',
+                <?php } ?>
+                url: '<?= $block->getUrl('datamigration/migration/process') ?>',
+                request_post: {
+                    action_type: 'import',
+                    form_key: '<?= $block->getFormKey() ?>'
+                },
+                request_download: {
+                    action_type: 'download',
+                    form_key: '<?= $block->getFormKey() ?>'
+                }
+            });
+        });
+    });
+</script>

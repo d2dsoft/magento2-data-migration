@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="D2DSoft_DataMigration::css/select2.min.css"/>
+        <css src="D2DSoft_DataMigration::css/style.css"/>
+        <css src="D2DSoft_DataMigration::css/custom.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="D2DSoft\DataMigration\Block\Adminhtml\Migration" name="datamigration.migration.setting" template="D2DSoft_DataMigration::setting.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
