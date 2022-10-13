@@ -1,8 +1,27 @@
 # Magento 2 Data Migration Extension
 [Magento 2 Data Migration Extension](https://d2d-soft.com/15-magento-migration) is a solution for migrating data to Magento from another platform. The extension support migrating many entity types (taxes, manufacturers, categories, products, customers, orders, reviews) with many options. The extension can work in the local environment or the online environment. We also provide the [Custom Migration Service](https://d2d-soft.com/migration-services/296-data-migration-customization.html) if you have a specific requirement. 
 
+## Products
+- [CS-Cart to Magento Migration](https://d2d-soft.com/magento-migration/326-1397-cs-cart-to-magento-2-migration-extension.html)
+- [CubeCart to Magento Migration](https://d2d-soft.com/magento-migration/46-148-cubecart-to-magento-2-migration-extension.html)
+- [Drupal Commerce to Magento Migration](https://d2d-soft.com/magento-migration/360-drupal-commerce-to-magento-migration-service.html)
+- [Loaded Commerce to Magento Migration](https://d2d-soft.com/magento-migration/47-153-loaded-to-magento-2-migation-extension.html)
+- [Magento to Magento Migration](https://d2d-soft.com/magento-migration/27-158-magento-to-magento-2-migration.html)
+- [OpenCart to Magento Migration](https://d2d-soft.com/magento-migration/48-161-opencart-to-magento-2-migration-extension.html)
+- [osCommerce to Magento Migration](https://d2d-soft.com/magento-migration/49-166-oscommerce-to-magento-2-migration-extension.html)
+- [OXID-eShop to Magento Migration](https://d2d-soft.com/magento-migration/50-171-oxid-eshop-to-magento-2-migation-extension.html)
+- [PrestaShop to Magento Migration](https://d2d-soft.com/magento-migration/30-176-prestashop-to-magento-2-migration.html)
+- [VirtueMart to Magento Migration](https://d2d-soft.com/magento-migration/51-179-virtuemart-to-magento-2-migration-extension.html)
+- [WooCommerce to Magento Migration](https://d2d-soft.com/magento-migration/31-184-woocommerce-to-magento-2-migration-extension.html)
+- [WP-eCommerce to Magento Migration](https://d2d-soft.com/magento-migration/52-187-wp-ecommerce-to-magento-2-migration-extension.html)
+- [X-Cart to Magento Migration](https://d2d-soft.com/magento-migration/53-192-x-cart-to-magento-2-migration-extension.html)
+- [xt:Commerce to Magento Migration](https://d2d-soft.com/magento-migration/54-197-xtcommerce-to-magento-migration-extension.html)
+- [ZenCart to Magento Migration](https://d2d-soft.com/magento-migration/55-202-zencart-to-magento-2-migration-extension.html)
+
 ## Supported Platforms
+- [CS-Cart](https://www.cs-cart.com/)
 - [CubeCart](https://www.cubecart.com/)
+- [Drupal Commerce](https://drupalcommerce.org/)
 - [Loaded Commerce](https://loadedcommerce.com/)
 - [Magento](https://magento.com/)
 - [OpenCart](https://www.opencart.com/)
