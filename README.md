@@ -2,6 +2,7 @@
 [Magento 2 Data Migration Extension](https://d2d-soft.com/15-magento-migration) is a solution for migrating data to Magento from another platform. The extension support migrating many entity types (taxes, manufacturers, categories, products, customers, orders, reviews) with many options. The extension can work in the local environment or the online environment. We also provide the [Custom Migration Service](https://d2d-soft.com/migration-services/296-data-migration-customization.html) if you have a specific requirement. 
 
 ## Products
+- [AmeriCommerce to Magento Migration](https://d2d-soft.com/magento-migration/773-7250-americommerce-to-magento-2-migration-extension.html#/72-entities-1000)
 - [BigCommerce to Magento Migration](https://d2d-soft.com/magento-migration/415-1677-bigcommerce-to-magento-2-migration-extension.html#/72-entities-1000)
 - [CS-Cart to Magento Migration](https://d2d-soft.com/magento-migration/326-1397-cs-cart-to-magento-2-migration-extension.html)
 - [CubeCart to Magento Migration](https://d2d-soft.com/magento-migration/46-148-cubecart-to-magento-2-migration-extension.html)
@@ -17,6 +18,7 @@
 - [osCommerce to Magento Migration](https://d2d-soft.com/magento-migration/49-166-oscommerce-to-magento-2-migration-extension.html)
 - [OXID-eShop to Magento Migration](https://d2d-soft.com/magento-migration/50-171-oxid-eshop-to-magento-2-migation-extension.html)
 - [PrestaShop to Magento Migration](https://d2d-soft.com/magento-migration/30-176-prestashop-to-magento-2-migration.html)
+- [Salesforce to Magento Migration](https://d2d-soft.com/magento-migration/719-6737-salesforce-to-magento-2-migration-extension.html#/72-entities-1000)
 - [Shopify to Magento Migration](https://d2d-soft.com/magento-migration/378-1497-shopify-to-magento-2-migration-extension.html#/72-entities-1000)
 - [VirtueMart to Magento Migration](https://d2d-soft.com/magento-migration/51-179-virtuemart-to-magento-2-migration-extension.html)
 - [Volusion to Magento Migration](https://d2d-soft.com/magento-migration/642-5934-volusion-to-magento-2-migration-extension.html#/72-entities-1000)
@@ -28,6 +30,7 @@
 - [ZenCart to Magento Migration](https://d2d-soft.com/magento-migration/55-202-zencart-to-magento-2-migration-extension.html)
 
 ## Supported Platforms
+- [AmeriCommerce](https://www.americommerce.com/)
 - [BigCommerce](https://www.bigcommerce.com/)
 - [CS-Cart](https://www.cs-cart.com/)
 - [CubeCart](https://www.cubecart.com/)
@@ -43,6 +46,7 @@
 - [osCommerce](https://www.oscommerce.com/)
 - [OXID-eShop](https://www.oxid-esales.com)
 - [PrestaShop](https://www.prestashop.com)
+- [Salesforce](https://www.salesforce.com/)
 - [Shopify](https://www.shopify.com/)
 - [VirtueMart](https://virtuemart.net/)
 - [Volusion](https://volusion.com/)
