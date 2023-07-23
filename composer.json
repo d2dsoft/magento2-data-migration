@@ -15,6 +15,9 @@
       "role": "Developer"
     }
   ],
+  "require": {
+    "phpoffice/phpspreadsheet": "*"
+  },
   "autoload": {
     "files": ["registration.php"],
     "psr-4": {

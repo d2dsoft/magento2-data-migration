@@ -19,7 +19,6 @@
 namespace D2DSoft\DataMigration\Controller\Adminhtml\Migration;
 
 use D2DSoft\DataMigration\Controller\Adminhtml\Migration;
-use Zend_Json_Encoder;
 
 class Process extends Migration
 {
@@ -65,11 +64,16 @@ class Process extends Migration
 
     protected function responseJson($data)
     {
+        if(class_exists('\Zend_Json_Encoder')){
+            $json_data = \Zend_Json_Encoder::encode($data);
+        } else {
+            $json_data = \Laminas\Json\Json::encode($data);
+        }
         $this->getResponse()
             ->clearHeaders()
             ->setHeader('Content-type', 'application/json' ,true);
         $this->getResponse()
-            ->setBody(Zend_Json_Encoder::encode($data));
+            ->setBody($json_data);
         return;
     }
 }

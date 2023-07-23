@@ -65,9 +65,10 @@ abstract class Migration extends AppAction
         $config = array();
         $config['user_id'] = $user->getId();
         $config['upload_dir'] = $library_folder . '/files';
-        $config['upload_location'] = ltrim($this->helper->getLibraryLocation()) . '/files';
+        $config['upload_location'] = ltrim($this->helper->getLibraryLocation(), '/') . '/files';
         $config['log_dir'] = $library_folder . '/log';
         $app->setConfig($config);
+        $app->setPluginManager($this->helper);
         $this->migrationApp = $app;
         return $this->migrationApp;
     }

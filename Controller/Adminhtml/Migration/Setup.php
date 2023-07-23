@@ -49,14 +49,29 @@ class Setup extends Migration
         $data = array(
             'license' => $license
         );
-        $client = new \Zend_Http_Client();
+        if(class_exists('\Zend_Http_Client')){
+            $client = new \Zend_Http_Client();
+            $method = \Zend_Http_Client::POST;
+        } else {
+            $client = new \Laminas\Http\Client();
+            $method = \Laminas\Http\Request::METHOD_POST;
+        }
+        if(class_exists('\Zend_Json_Encoder')){
+            $json_data = \Zend_Json_Encoder::encode($data);
+        } else {
+            $json_data = \Laminas\Json\Json::encode($data);
+        }
         $client->setUri($url)
             ->setStream($tmp_path)
-            ->setMethod(\Zend_Http_Client::POST)
-            ->setRawData(json_encode($data));
+            ->setMethod($method)
+            ->setRawData($json_data);
         try {
             $client->request()->getBody();
-            $zip = new \Zend_Filter_Compress_Zip();
+            if(class_exists('\Zend_Filter_Compress_Zip')){
+                $zip = new \Zend_Filter_Compress_Zip();
+            } else {
+                $zip = new \Laminas\Filter\Compress\Zip();
+            }
             $zip->setTarget($library_folder);
             $zip->decompress($tmp_path);
             @unlink($tmp_path);

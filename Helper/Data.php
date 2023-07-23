@@ -20,6 +20,7 @@ namespace D2DSoft\DataMigration\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\Filesystem\DirectoryList;
+use Magento\Framework\App\Filesystem\DirectoryList as AppDirectoryList;
 use Magento\Framework\App\Helper\Context;
 
 class Data extends AbstractHelper
@@ -37,12 +38,14 @@ class Data extends AbstractHelper
     }
 
     public function getLibraryLocation(){
-        return '/d2dsoft/datamigration';
+        $config = $this->directoryList->getDefaultConfig();
+        $media_path = isset($config[AppDirectoryList::MEDIA]['path']) ? $config[AppDirectoryList::MEDIA]['path'] : 'pub/media';
+        return '/' . $media_path . '/d2dsoft/datamigration';
     }
 
     public function getLibraryFolder(){
         $location = $this->getLibraryLocation();
-        $folder = $this->directoryList->getPath('media') . $location;
+        $folder = rtrim($this->directoryList->getRoot(), '\\/') . $location;
         return $folder;
     }
 
@@ -54,5 +57,14 @@ class Data extends AbstractHelper
     public function isInstallLibrary(){
         $init_file = $this->getInitLibrary();
         return file_exists($init_file);
+    }
+
+    public function getPlugin($name){
+        $class_name = '\D2DSoft\DataMigration\Plugin\\' . $name;
+        if(!class_exists($class_name)){
+            return false;
+        }
+        $class = new $class_name();
+        return $class;
     }
 }
