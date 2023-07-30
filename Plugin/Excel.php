@@ -21,7 +21,7 @@ namespace D2DSoft\DataMigration\Plugin;
 class Excel
 {
     public function readFile($file_path, $start, $limit = 10, $total = false, $lower_key = false, $sheet_index = 0){
-        if(!class_exists('\PhpOffice\PhpSpreadsheet\Spreadsheet')){
+        if(!class_exists('\\PhpOffice\\PhpSpreadsheet\\Spreadsheet')){
             return array(
                 'status' => 'error',
                 'message' => 'The Excel reader does not exist.'
