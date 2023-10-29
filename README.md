@@ -3,6 +3,7 @@
 
 ## Products
 - [AmeriCommerce to Magento Migration](https://d2d-soft.com/magento-migration/773-7250-americommerce-to-magento-2-migration-extension.html#/72-entities-1000)
+- [Bagisto to Magento Migration](https://d2d-soft.com/magento-migration/938-8957-bagisto-to-magento-2-migration-extension.html#/72-entities-1000)
 - [BigCommerce to Magento Migration](https://d2d-soft.com/magento-migration/415-1677-bigcommerce-to-magento-2-migration-extension.html#/72-entities-1000)
 - [CS-Cart to Magento Migration](https://d2d-soft.com/magento-migration/326-1397-cs-cart-to-magento-2-migration-extension.html)
 - [CubeCart to Magento Migration](https://d2d-soft.com/magento-migration/46-148-cubecart-to-magento-2-migration-extension.html)
@@ -34,6 +35,7 @@
 
 ## Supported Platforms
 - [AmeriCommerce](https://www.americommerce.com/)
+- [Bagisto](https://bagisto.com/)
 - [BigCommerce](https://www.bigcommerce.com/)
 - [CS-Cart](https://www.cs-cart.com/)
 - [CubeCart](https://www.cubecart.com/)
