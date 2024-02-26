@@ -3,7 +3,7 @@
   "description": "Magento Data Migration by D2dSoft is a solution for migrating data to Magento from another platform. The extension support migrating many entity types (taxes, manufacturers, categories, products, customers, orders, reviews) with many options. The extension can work in the local environment or the online environment.",
   "keywords": ["data migration","magento data migration"],
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "license": [
     "AFL-3.0"
   ],
