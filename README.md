@@ -2,6 +2,7 @@
 [Magento 2 Data Migration Extension](https://d2d-soft.com/15-magento-migration) is a solution for migrating data to Magento from another platform. The extension support migrating many entity types (taxes, manufacturers, categories, products, customers, orders, reviews) with many options. The extension can work in the local environment or the online environment. We also provide the [Custom Migration Service](https://d2d-soft.com/migration-services/296-data-migration-customization.html) if you have a specific requirement. 
 
 ## Products
+- [AbanteCart to Magento Migration](https://d2d-soft.com/magento-migration/1125-10863-abantecart-to-magento-2-migration-extension.html#/72-entities-1000)
 - [AmeriCommerce to Magento Migration](https://d2d-soft.com/magento-migration/773-7250-americommerce-to-magento-2-migration-extension.html#/72-entities-1000)
 - [Bagisto to Magento Migration](https://d2d-soft.com/magento-migration/938-8957-bagisto-to-magento-2-migration-extension.html#/72-entities-1000)
 - [BigCommerce to Magento Migration](https://d2d-soft.com/magento-migration/415-1677-bigcommerce-to-magento-2-migration-extension.html#/72-entities-1000)
@@ -36,6 +37,7 @@
 - [ZenCart to Magento Migration](https://d2d-soft.com/magento-migration/55-202-zencart-to-magento-2-migration-extension.html)
 
 ## Supported Platforms
+- [AbanteCart](https://www.abantecart.com/)
 - [AmeriCommerce](https://www.americommerce.com/)
 - [Bagisto](https://bagisto.com/)
 - [BigCommerce](https://www.bigcommerce.com/)
